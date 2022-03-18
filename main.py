@@ -56,10 +56,27 @@ def return_value_from_file(file_name = "txt/dice_save.txt"):
     file.close()
     return (int(a[0]), int(a[-1]))
 
-#Button for dice rolls
+#Button images for dice rolls
 inactive_dice_button = pygame.image.load("img/dice_button.png")
 active_dice_button = pygame.image.load("img/active_dice_button.png")
 
+you_dice = [
+    "img/you_dice1.png"
+    "img/you_dice2.png"
+    "img/you_dice3.png"
+    "img/you_dice4.png"
+    "img/you_dice5.png"
+    "img/you_dice6.png"
+]
+
+cpu_dice_list = [
+    "img/cpu_dice1.png"
+    "img/cpu_dice2.png"
+    "img/cpu_dice3.png"
+    "img/cpu_dice4.png"
+    "img/cpu_dice5.png"
+    "img/cpu_dice6.png" 
+]
 
 main()
 exit()
