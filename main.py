@@ -11,6 +11,7 @@ pygame.init()
 
 background_image = pygame.image.load("img/background.png")
 display = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Backgammon Game")
 
 def main():
     run = True
